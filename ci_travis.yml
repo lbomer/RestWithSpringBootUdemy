@@ -1,13 +1,7 @@
-language: java
-jdk:
-  - oraclejdk11
+language: bash
 services: docker
 before_install:
-  - sudo apt-get update
-  - cd 16\ RestWithSpringBootUdemy\ Deploy\ in\ AWS/RestWithSpringBootUdemy/
-  - echo "Let's strat Maven Package!"
-  - mvn clean package
-  - cd ..
+  - cd 16\ RestWithSpringBootUdemy\ Saffold\ Docker/
   - echo "We are in the Docker folder!"
 script:
   - echo "OK Here we GO!"
